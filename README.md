@@ -10,7 +10,7 @@ It is generated from our [OpenAPI specification](https://github.com/openai/opena
 
 ## Documentation
 
-The REST API documentation can be found [on platform.openai.com](https://platform.openai.com/docs). The full API of this library can be found in [api.md](api.md).
+The REST API documentation can be found on [platform.openai.com](https://platform.openai.com/docs). The full API of this library can be found in [api.md](api.md).
 
 ## Installation
 
@@ -228,7 +228,7 @@ List methods in the OpenAI API are paginated.
 This library provides auto-paginating iterators with each list response, so you do not have to request successive pages manually:
 
 ```python
-import openai
+from openai import OpenAI
 
 client = OpenAI()
 
@@ -246,7 +246,7 @@ Or, asynchronously:
 
 ```python
 import asyncio
-import openai
+from openai import AsyncOpenAI
 
 client = AsyncOpenAI()
 
@@ -573,6 +573,12 @@ client = OpenAI(
         transport=httpx.HTTPTransport(local_address="0.0.0.0"),
     ),
 )
+```
+
+You can also customize the client on a per-request basis by using `with_options()`:
+
+```python
+client.with_options(http_client=DefaultHttpxClient(...))
 ```
 
 ### Managing HTTP resources

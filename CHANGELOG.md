@@ -1,5 +1,66 @@
 # Changelog
 
+## 1.37.1 (2024-07-25)
+
+Full Changelog: [v1.37.0...v1.37.1](https://github.com/openai/openai-python/compare/v1.37.0...v1.37.1)
+
+### Chores
+
+* **tests:** update prism version ([#1572](https://github.com/openai/openai-python/issues/1572)) ([af82593](https://github.com/openai/openai-python/commit/af8259393673af1ef6ec711da6297eb4ad55b66e))
+
+## 1.37.0 (2024-07-22)
+
+Full Changelog: [v1.36.1...v1.37.0](https://github.com/openai/openai-python/compare/v1.36.1...v1.37.0)
+
+### Features
+
+* **api:** add uploads endpoints ([#1568](https://github.com/openai/openai-python/issues/1568)) ([d877b6d](https://github.com/openai/openai-python/commit/d877b6dabb9b3e8da6ff2f46de1120af54de398d))
+
+
+### Bug Fixes
+
+* **cli/audio:** handle non-json response format ([#1557](https://github.com/openai/openai-python/issues/1557)) ([bb7431f](https://github.com/openai/openai-python/commit/bb7431f602602d4c74d75809c6934a7fd192972d))
+
+
+### Documentation
+
+* **readme:** fix example snippet imports ([#1569](https://github.com/openai/openai-python/issues/1569)) ([0c90af6](https://github.com/openai/openai-python/commit/0c90af6412b3314c2257b9b8eb7fabd767f32ef6))
+
+## 1.36.1 (2024-07-20)
+
+Full Changelog: [v1.36.0...v1.36.1](https://github.com/openai/openai-python/compare/v1.36.0...v1.36.1)
+
+### Bug Fixes
+
+* **types:** add gpt-4o-mini to more assistants methods ([39a8a37](https://github.com/openai/openai-python/commit/39a8a372eb3f2d75fd4310d42294d05175a59fd8))
+
+## 1.36.0 (2024-07-19)
+
+Full Changelog: [v1.35.15...v1.36.0](https://github.com/openai/openai-python/compare/v1.35.15...v1.36.0)
+
+### Features
+
+* **api:** add new gpt-4o-mini models ([#1561](https://github.com/openai/openai-python/issues/1561)) ([5672ad4](https://github.com/openai/openai-python/commit/5672ad40aaa3498f6143baa48fc22bb1a3475bea))
+
+## 1.35.15 (2024-07-18)
+
+Full Changelog: [v1.35.14...v1.35.15](https://github.com/openai/openai-python/compare/v1.35.14...v1.35.15)
+
+### Chores
+
+* **docs:** document how to do per-request http client customization ([#1560](https://github.com/openai/openai-python/issues/1560)) ([24c0768](https://github.com/openai/openai-python/commit/24c076873c5cb2abe0d3e285b99aa110451b0f19))
+* **internal:** update formatting ([#1553](https://github.com/openai/openai-python/issues/1553)) ([e1389bc](https://github.com/openai/openai-python/commit/e1389bcc26f3aac63fc6bc9bb151c9a330d95b4e))
+
+## 1.35.14 (2024-07-15)
+
+Full Changelog: [v1.35.13...v1.35.14](https://github.com/openai/openai-python/compare/v1.35.13...v1.35.14)
+
+### Chores
+
+* **docs:** minor update to formatting of API link in README ([#1550](https://github.com/openai/openai-python/issues/1550)) ([a6e59c6](https://github.com/openai/openai-python/commit/a6e59c6bbff9e1132aa323c0ecb3be7f0692ae42))
+* **internal:** minor formatting changes ([ee1c62e](https://github.com/openai/openai-python/commit/ee1c62ede01872e76156d886af4aab5f8eb1cc64))
+* **internal:** minor options / compat functions updates ([#1549](https://github.com/openai/openai-python/issues/1549)) ([a0701b5](https://github.com/openai/openai-python/commit/a0701b5dbeda4ac2d8a4b093aee4bdad9d674ee2))
+
 ## 1.35.13 (2024-07-10)
 
 Full Changelog: [v1.35.12...v1.35.13](https://github.com/openai/openai-python/compare/v1.35.12...v1.35.13)
